@@ -74,14 +74,78 @@ body{
 	.main-text p{
 		color:#747474;
 		}
+	#about{display: flex;
+			justify-content: space-around;
+			align-items: center;
+			width:90%;
+			margin:50px 50px 50px 50px;
+	}	
+	.about-text .about-edu{
+		margin-top: 30px;
+	}
+	.about-text .li-wrap{
+		display:flex;
+		margin-bottom: 15px;
+	}
+	.about-text .li-wrap .date{
+		width: 125px;
+		color: #36bbb9;
+	}
+	.about-text .li-wrap .info{
+		width: calc(100%-125px);
+		padding-left: 25px;
+		position: relative;
+	}
+	.about-text .li-wrap .info-title{
+		text-transform: uppercase;
+		font-weight: 700;
+		letter-spacing: 2px;
+		color: #36bbb9;
+	}
+	.about-text .li-wrap .info-clg{
+		font-weight: 300;
+		font-size:14px;
+		margin-top:3px;
+		color: #747474;
+	}
+	.about-text .li-wrap .info-cont{
+		margin-top:15px;
+		color: #747474;
+	}
+	.about-text .li-wrap .info:before{
+		content:"";
+		position:absolute;
+		top: 3px;
+		left:0;
+		width: 10px;
+		height: 10px;
+		background:#36bbb9;
+		border-radius: 50%;
+	}
+	.about-text .li-wrap .info:before{
+		content:"";
+		position:absolute;
+		top: 10px;
+		left:4px;
+		width: 2px;
+		height: 90%;
+		background:#36bbb9;
+	}
 	#skills{display: flex;
 			justify-content: space-around;
 			align-items: center;
 			width:90%;
 			margin:auto auto 50px auto;
-			}	
+			}
+	.about-text{
+		justify-content: center;
+		width: 600px;
+		margin-left: 235px;
+	}			
 	.skill-text{
-		width: 400px;}
+		width: 400px;
+	}
+	.about-heading span,	
 	.skill-heading span{
 		color: #349694;
 		font-weight: 500;
@@ -89,6 +153,7 @@ body{
 		letter-spacing: 1px;
 		font-size: 1rem;
 		}
+	.about-edu h2,	
 	.skill-heading h2{
 		color: #1c3548;
 		font-size: 3.3rem;
@@ -155,4 +220,43 @@ body{
 		100%{
 			background: url(images/1.png);
 		}
+	}
+	#contact{
+		display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 50px 0px;
+	flex-direction: column;
+	}
+	 .contact-items{
+		width: 100%;
+	}
+	 .contact-item{
+		width: 80%;
+		padding: 20px;
+		text-align:center;
+		border-radius: 10px;
+		padding: 30px;
+		margin: 30px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		box-shadow: 0px 0px 18px black;
+	}
+	.contact-info h1{
+		color: #36b7b5;
+		font-size: 20px;	
+	}
+	.contact-info h2{
+		color: #747474;
+		font-size: 18px;
+	}
+	.contact-heading span{
+		color: #36b7b5;
+		font-weight: 500;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		font-size: 1.1rem;
+		margin-left: 110px;
 	}
