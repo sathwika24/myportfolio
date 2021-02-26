@@ -312,7 +312,7 @@ body{
 		height:65px;
 		padding:0px 30px;
 		}
-		#skills,#recent,#contact{
+		#skills{
 			width: 100px;
 			justify-content: space-between;
 			padding-left: 40px;
