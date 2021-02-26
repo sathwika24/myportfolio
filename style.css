@@ -166,6 +166,13 @@ body{
 		height: 90%;
 		background:#36bbb9;
 	}
+	@media screen and (max-width:1000px){
+		.about-text{
+			padding: 30px;
+		}
+	}
+
+	
 	#skills{display: flex;
 			justify-content: space-around;
 			align-items: center;
@@ -298,5 +305,28 @@ body{
 		letter-spacing: 2px;
 		font-size: 1.1rem;
 		margin-left:20px;
+	}
+	@media screen and (max-width:900px){
+		nav{
+		justify-content: space-between;
+		height:65px;
+		padding:0px 30px;
+		}
+		#skills{
+			width: 100px;
+			justify-content: space-between;
+			padding-left: 40px;
+		}
+		.skill-text{
+			width: 400px;
+		}
+		.recent-heading h3{
+			font-size: 2.2rem;
+			text-align:center;
+		}
+		.recent-heading,.contact-heading{
+			text-align:center;
+			padding:0px 15px;
+		}
 	}
 	
