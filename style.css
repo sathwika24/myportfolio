@@ -312,7 +312,7 @@ body{
 		height:65px;
 		padding:0px 30px;
 		}
-		#skills{
+		#skills,#recent,#contact{
 			width: 100px;
 			justify-content: space-between;
 			padding-left: 40px;
@@ -324,9 +324,9 @@ body{
 			font-size: 2.2rem;
 			text-align:center;
 		}
-		.recent-heading,.contact-heading{
+		.recent-heading span,.contact-heading{
 			text-align:center;
 			padding:0px 15px;
 		}
+		
 	}
-	
