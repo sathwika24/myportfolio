@@ -328,14 +328,24 @@ body{
 			text-align:center;
 			padding:0px 15px;
 		}
+		.contact-container{
+			display: flex;
+			flex-direction: column;
 		
 	}
 	@media screen and (max-width:530px){
 		.contact-container{
 			display: flex;
 			flex-direction: column;
-			
+			margin-left: 230px;
 		}
 		
+		.slider{
+			display: none;
+			
+		}
+		#recent{
+			margin-left: 275px;
+		}
 		
 	}
